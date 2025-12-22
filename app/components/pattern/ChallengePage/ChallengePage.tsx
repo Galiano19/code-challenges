@@ -1,7 +1,11 @@
 "use client";
 
 import { useState } from "react";
-import { TypographyH1, TypographyP } from "../../ui/typography/typography";
+import {
+  TypographyH1,
+  TypographyH2,
+  TypographyP,
+} from "../../ui/typography/typography";
 import Layout from "../Layout/Layout";
 import { Button } from "../../ui/button/button";
 
@@ -25,7 +29,10 @@ export default function ChallengePage({
       <TypographyH1>{title}</TypographyH1>
       <TypographyP>{description}</TypographyP>
       {result ? (
-        <div>{children}</div>
+        <div>
+          <TypographyH2>Solution</TypographyH2>
+          {children}
+        </div>
       ) : (
         <Button variant={"outline"} onClick={handleClick}>
           Show solution
