@@ -48,6 +48,33 @@ export default function Home() {
           </TableRow>
         </TableBody>
       </Table>
+      <TypographyH2>React</TypographyH2>
+      <Table>
+        <TableCaption>A list of React code challenges.</TableCaption>
+        <TableHeader>
+          <TableRow>
+            <TableHead className="w-[100px]">Name</TableHead>
+            <TableHead>Link</TableHead>
+            <TableHead className="text-right">Solution</TableHead>
+          </TableRow>
+        </TableHeader>
+        <TableBody>
+          <TableRow>
+            <TableCell>implement curry()</TableCell>
+            <TableCell>
+              <a
+                href="https://bigfrontend.dev/react/The-React-Counter"
+                target="_blank"
+              >
+                BigFrontEnd
+              </a>
+            </TableCell>
+            <TableCell>
+              <a href="/react/counterapp">Go to Challenge</a>
+            </TableCell>
+          </TableRow>
+        </TableBody>
+      </Table>
     </Layout>
   );
 }
