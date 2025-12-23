@@ -73,6 +73,20 @@ export default function Home() {
               <a href="/react/counterapp">Go to Challenge</a>
             </TableCell>
           </TableRow>
+          <TableRow>
+            <TableCell>useTiemout()</TableCell>
+            <TableCell>
+              <a
+                href="https://bigfrontend.dev/react/usetimeout"
+                target="_blank"
+              >
+                BigFrontEnd
+              </a>
+            </TableCell>
+            <TableCell>
+              <a href="/react/usetimeout">Go to Challenge</a>
+            </TableCell>
+          </TableRow>
         </TableBody>
       </Table>
     </Layout>
