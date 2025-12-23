@@ -5,7 +5,7 @@ import { useState } from "react";
 import { useTimeout } from "./useTimeout";
 import { TypographyP } from "@/app/components/ui/typography/typography";
 
-export default function CounterApp() {
+export default function Timeout() {
   const [count, setCount] = useState(0);
 
   const handleTimer = () => {

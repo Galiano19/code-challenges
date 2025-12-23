@@ -87,6 +87,20 @@ export default function Home() {
               <a href="/react/usetimeout">Go to Challenge</a>
             </TableCell>
           </TableRow>
+          <TableRow>
+            <TableCell>useIsFirstRender()</TableCell>
+            <TableCell>
+              <a
+                href="https://bigfrontend.dev/react/useIsFirstRender"
+                target="_blank"
+              >
+                BigFrontEnd
+              </a>
+            </TableCell>
+            <TableCell>
+              <a href="/react/useisfirstrender">Go to Challenge</a>
+            </TableCell>
+          </TableRow>
         </TableBody>
       </Table>
     </Layout>
